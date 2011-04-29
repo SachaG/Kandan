@@ -72,7 +72,7 @@ button {  width: auto; overflow: visible; }
 body, select, input, textarea { color: #444; }
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 a, a:active, a:visited { color: #544f2e; }
-a:hover { color: #036; }
+a:hover { color: #e1cb07; }
 
 
 /**
@@ -181,6 +181,7 @@ h5{
 	text-align:center;
 }
 .photo{
+	display:block;
 	width:78px;
 	height:98px;
 	margin:0 auto;
@@ -212,6 +213,9 @@ h5{
 }
 .bio h4{
 	font-weight:200;
+}
+.bio h4 a{
+	text-decoration:none;
 }
 .bio h5{
 	font-weight:500;
