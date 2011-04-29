@@ -173,7 +173,7 @@ h5{
 }
 .bio{
 	height:227px;
-	padding:20px;
+	padding:20px 12px 15px 12px;
 	background:#f6f6e3;
 	text-shadow:0px 1px 0px rgba(255,255,255,0.8);
 	-moz-box-shadow:inset 0px 1px #fff;
@@ -181,6 +181,14 @@ h5{
 	box-shadow:inset 0px 1px #fff;
 	color:#282620;	
 	text-align:center;
+}
+.bio a{
+	font-weight:bold;
+	color:#282620;
+	text-decoration:none;
+}
+.bio a:hover{
+	color:#e1cb07;
 }
 .photo{
 	display:block;
@@ -215,6 +223,7 @@ h5{
 }
 .bio h4 a{
 	text-decoration:none;
+	font-weight:200;
 }
 .bio h5{
 	font-weight:500;
