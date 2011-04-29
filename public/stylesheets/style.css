@@ -172,6 +172,8 @@ h5{
 	box-shadow:				0px 1px 2px rgba(0,0,0,0.8);
 }
 .bio{
+	height:227px;
+	padding:20px;
 	background:#f6f6e3;
 	text-shadow:0px 1px 0px rgba(255,255,255,0.8);
 	-moz-box-shadow:inset 0px 1px #fff;
@@ -207,9 +209,6 @@ h5{
 	left:0;
 	background:url("../images/vignette.png");
 	z-index:10;
-}
-.bio{
-	padding:20px;
 }
 .bio h4{
 	font-weight:200;
